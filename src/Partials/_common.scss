@@ -14,16 +14,40 @@ body{
   margin: auto;
 }
 
-h2 {
-  margin: 50px 0 20px 0;
+ol {
+  padding: 0 20px 30px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+
+  ul{
+    padding-left: 15px;
+    list-style: lower-alpha;
+  }
+
+  li{
+    padding: 30px 0 0 20px;
+  }
+}
+
+h3 {
+  margin: 50px 0 10px 0;
   font-size: 22px;
   font-weight: 700;
   color: $textColor;
 }
 
-p{
-  padding: 15px 0;
-  margin: 10px 0;
+h4 {
+  color: $textColor;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 10px 0;
   font-size: 14px;
   font-weight: 400;
   text-align: justify;

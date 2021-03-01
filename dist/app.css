@@ -14,16 +14,38 @@ body {
   margin: auto;
 }
 
-h2 {
-  margin: 50px 0 20px 0;
+ol {
+  padding: 0 20px 30px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+ol ul {
+  padding-left: 15px;
+  list-style: lower-alpha;
+}
+ol li {
+  padding: 30px 0 0 20px;
+}
+
+h3 {
+  margin: 50px 0 10px 0;
   font-size: 22px;
   font-weight: 700;
   color: #5f6368;
 }
 
+h4 {
+  color: #5f6368;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
 p {
-  padding: 15px 0;
-  margin: 10px 0;
+  padding: 10px 0;
   font-size: 14px;
   font-weight: 400;
   text-align: justify;

@@ -1,1 +1,136 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+h2 {
+  margin: 50px 0 20px 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #5f6368;
+}
+
+p {
+  padding: 15px 0;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+main {
+  padding: 50px 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: 1px #5f6368 solid;
+}
+header .header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0 10px 20px;
+}
+header .header-left .logo img {
+  vertical-align: middle;
+}
+header .header-left .logo h1 {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  color: #5f6368;
+}
+header .header-left .menu ul {
+  list-style: none;
+}
+header .header-left .menu ul li {
+  display: inline-block;
+}
+header .header-left .menu ul li a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: #5f6368;
+  font-weight: 500;
+}
+header .header-left .menu ul li a.active {
+  border-bottom: 3px #3367d6 solid;
+  color: #3367d6;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+header .header-right {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 25px 0;
+}
+header .header-right .first-circle {
+  font-size: 9px;
+  cursor: pointer;
+}
+header .header-right .first-circle i:hover {
+  color: lightgrey;
+  border-radius: 50%;
+}
+header .header-right .second-circle {
+  font-size: 18px;
+  cursor: pointer;
+}
+header .header-right .second-circle i {
+  color: #ae1827;
+}
+header .header-right .second-circle i:hover {
+  color: lightgrey;
+  border-radius: 50%;
+}
+header .header-right i {
+  color: #5f6368;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-container .footer-left ul {
+  list-style: none;
+}
+footer .footer-container .footer-left ul li {
+  display: inline-block;
+  font-size: 10px;
+}
+footer .footer-container .footer-left ul li a {
+  text-decoration: none;
+  color: #5f6368;
+}
+footer .footer-container .footer-left ul li:not(:last-child)::after {
+  content: "‧";
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .footer-container .footer-right img {
+  vertical-align: middle;
+}
+footer .footer-container .footer-right select {
+  width: 180px;
+  cursor: pointer;
+}

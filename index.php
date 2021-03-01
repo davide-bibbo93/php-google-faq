@@ -29,6 +29,22 @@
       ]
     ],
     [
+      "question" => "Perché il mio account è associato a un paese?",
+      "answer" => [
+        "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:",
+
+        "1. La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:",
+
+          "a. Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.",
+
+          "b. Google LLC, con sede negli Stati Uniti, per il resto del mondo.",
+
+        "2. La versione dei termini che regola il nostro rapporto, che può variare in  base alle leggi locali.",
+
+        "Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.",
+      ]
+    ],
+    [
       "question" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?",
       "answer" => [
           "I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi contattare il webmaster del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, fai clic qui. Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni."
@@ -50,6 +66,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -62,11 +79,28 @@
     <header>
 
       <div class="header-left">
-
+        <div class="logo">
+          <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+          <h1>Privacy e termini</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Introduzione</a></li>
+            <li><a href="#">Norme sulla privacy</a></li>
+            <li><a href="#">Termini di servizio</a></li>
+            <li><a href="#">Tecnologie</a></li>
+            <li><a href="#" class="active">Domande frequenti</a></li>
+          </ul>
+        </div>
       </div>
 
       <div class="header-right">
-
+        <div class="first-circle">
+          <i class="fas fa-2x fa-th"></i>
+        </div>
+        <div class="second-circle">
+          <i class="fas fa-2x fa-user-circle"></i>
+        </div>
       </div>
 
     </header>
@@ -99,11 +133,23 @@
       <div class="container">
         <div class="footer-container">
           <div class="footer-left">
-
+            <ul>
+              <li><a href="#">Google</a></li>
+              <li><a href="#">Tutto su Google</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Termini</a></li>
+            </ul>
           </div>
 
           <div class="footer-right">
-
+            <img src="img/comment.png" alt="">
+            <select class="" name="">
+              <option value="">Italiano</option>
+              <option value="">English</option>
+              <option value="">Español</option>
+              <option value="">Deutsche</option>
+              <option value="">Français</option>
+            </select>
           </div>
         </div>
       </div>
